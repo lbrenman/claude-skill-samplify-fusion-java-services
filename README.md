@@ -2,6 +2,8 @@
 
 A Claude skill for generating production-ready Java service code for [Axway Amplify Fusion](https://docs.axway.com/bundle/amplify-fusion) pipelines.
 
+[![Claude Code Skill](https://img.shields.io/badge/Claude%20Code-Skill-blue)](https://claude.ai/code)
+
 ## What it does
 
 When installed, this skill teaches Claude how to write Fusion-compatible Java services — handling the `dataIn`/`dataOut` map convention, type casting, null safety, and the constraints of the shared data plane. Ask Claude to build a Java service for any pipeline task and it will produce ready-to-paste code along with the input/output variable definitions and a test example.
